@@ -36,12 +36,12 @@ module.exports = {
             },
         },
         contato: {
-            webmail: 'https://webmail.ita.br',
+            webmail: 'https://webmail.institution.org',
             contatos: {
-                mail: 'mailto:contato@ita.br',
-                comunicacao: 'mailto:comunicacao@ita.br',
-                vestibular: 'mailto:vestita@ita.br',
-                ramais: 'http://www.portal2.ita.br/contatos',
+                mail: 'mailto:contato@institution.org',
+                comunicacao: 'mailto:comunicacao@institution.org',
+                vestibular: 'mailto:vestita@institution.org',
+                ramais: 'http://www.portal2.institution.org/contatos',
                 telefones: '/post/contatos',
                 foneAdministracao: '(12) 3947 5736',
                 foneComunicacao: '(12) 3947 6926'

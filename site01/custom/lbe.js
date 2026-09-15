@@ -12,7 +12,7 @@ module.exports = {
         'frontPageCategories': { categories: { $in: ['600752c79973ae058e39d84d'] } },
 
         // 'ldap server': {
-        //     url: 'ldaps://161.24.23.215:636',
+        //     url: 'ldaps://255.257.258.259:65536',
         // },
         'ldap auth user': 'cn=ADMIN-DO-PORTAL,ou=internal,ou=users,dc=ita,dc=br',
         'ldap auth password': 'SENHA-DO-ADMIN-DO-PORTAL-NO-LDAP',

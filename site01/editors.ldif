@@ -8,22 +8,22 @@ ou: internal
 objectClass: organizationalUnit
 objectClass: top
 
-dn: uid=evillani@ita.br,ou=internal,ou=users,dc=ita,dc=br
-uid: evillani@ita.br
+dn: uid=evillani@institution.org,ou=internal,ou=users,dc=ita,dc=br
+uid: evillani@institution.org
 objectClass: simpleSecurityObject
 objectClass: account
 objectClass: top
 userPassword: ep4ssw04d
 
-dn: uid=danielle@ita.br,ou=internal,ou=users,dc=ita,dc=br
-uid: danielle@ita.br
+dn: uid=danielle@institution.org,ou=internal,ou=users,dc=ita,dc=br
+uid: danielle@institution.org
 objectClass: simpleSecurityObject
 objectClass: account
 objectClass: top
 userPassword: dp4ssw04d
 
-dn: uid=talita@ita.br,ou=internal,ou=users,dc=ita,dc=br
-uid: talita@ita.br
+dn: uid=talita@institution.org,ou=internal,ou=users,dc=ita,dc=br
+uid: talita@institution.org
 objectClass: simpleSecurityObject
 objectClass: account
 objectClass: top
@@ -31,18 +31,18 @@ userPassword: tp4ssw04d
 
 dn: cn=editor,ou=internal,ou=users,dc=ita,dc=br
 cn: editor
-member: uid=evillani@ita.br
+member: uid=evillani@institution.org
 objectClass: groupOfNames
 objectClass: top
 
 dn: cn=editor-graduacao,ou=internal,ou=users,dc=ita,dc=br
 cn: editor-graduacao
-member: uid=danielle@ita.br
+member: uid=danielle@institution.org
 objectClass: groupOfNames
 objectClass: top
 
 dn: cn=editor-pos-graduacao,ou=internal,ou=users,dc=ita,dc=br
 cn: editor-pos-graduacao
-member: uid=talita@ita.br
+member: uid=talita@institution.org
 objectClass: groupOfNames
 objectClass: top

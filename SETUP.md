@@ -84,15 +84,15 @@ cd portal/site01
 Crie um arquivo `.env` com o seguinte conteúdo:
 
 ```ini
-DOMAIN="site.ita.br www.site.ita.br"
+DOMAIN="site.institution.org www.site.institution.org"
 HTTP=demo
 DBCONF=default
-LETSENCRYPT_EMAIL=email@ita.br
+LETSENCRYPT_EMAIL=email@institution.org
 ECOSYSTEM=ZZZZZ
 PORT=3008
-SMTPUSR=email@ita.br
+SMTPUSR=email@institution.org
 SMTPPWD=XXXXXXXXXXXX
-SMTPSRV=smtp.ita.br
+SMTPSRV=smtp.institution.org
 SMTPPRT=587
 ```
 
@@ -145,7 +145,7 @@ Crie uma pasta com a configuração (por exemplo `ZZZZZ`) e insira a tradução 
 module.exports = {
     partials: {
         credits: {
-            author: "Criação: <a href='mailto:ceds@ita.br'>ceds@ita.br</a>",
+            author: "Criação: <a href='mailto:ceds@institution.org'>ceds@institution.org</a>",
         },
     }
 }
@@ -232,7 +232,7 @@ O usuário previamente configurado pelo sistema está em [First User](./site01/u
 
 ```
 http://www.xxx.yyy.zzz/admin/signin
-    email: itauser@ita.br
+    email: itauser@institution.org
     password: p4ssw0rd
 ```
 

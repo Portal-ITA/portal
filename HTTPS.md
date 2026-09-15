@@ -4,7 +4,7 @@ Modificar arquivo `.env`. As configurações:
 
 ```ini
   .  .  .
-DOMAIN="ecosystem.ita.br www.ecosystem.ita.br"
+DOMAIN="ecosystem.institution.org www.ecosystem.institution.org"
 HTTP=portal
   .  .  .
 ```
